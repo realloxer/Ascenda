@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2788BB3927B50CA500864F0B /* SearchContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788BB3827B50CA500864F0B /* SearchContactsViewController.swift */; };
+		2788BB3B27B50DAB00864F0B /* SearchContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788BB3A27B50DAB00864F0B /* SearchContactsViewModel.swift */; };
 		27A203E027B4EE7000EAB2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A203DF27B4EE7000EAB2F2 /* AppDelegate.swift */; };
-		27A203E227B4EE7000EAB2F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A203E127B4EE7000EAB2F2 /* SceneDelegate.swift */; };
-		27A203E427B4EE7000EAB2F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A203E327B4EE7000EAB2F2 /* ViewController.swift */; };
 		27A203E727B4EE7000EAB2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A203E527B4EE7000EAB2F2 /* Main.storyboard */; };
 		27A203E927B4EE7200EAB2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A203E827B4EE7200EAB2F2 /* Assets.xcassets */; };
 		27A203EC27B4EE7200EAB2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A203EA27B4EE7200EAB2F2 /* LaunchScreen.storyboard */; };
 		27A203F727B4EE7200EAB2F2 /* AscendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A203F627B4EE7200EAB2F2 /* AscendaTests.swift */; };
-		27A2040127B4EE7200EAB2F2 /* AscendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A2040027B4EE7200EAB2F2 /* AscendaUITests.swift */; };
-		27A2040327B4EE7200EAB2F2 /* AscendaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A2040227B4EE7200EAB2F2 /* AscendaUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +24,19 @@
 			remoteGlobalIDString = 27A203DB27B4EE7000EAB2F2;
 			remoteInfo = Ascenda;
 		};
-		27A203FD27B4EE7200EAB2F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27A203D427B4EE7000EAB2F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27A203DB27B4EE7000EAB2F2;
-			remoteInfo = Ascenda;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2788BB3827B50CA500864F0B /* SearchContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactsViewController.swift; sourceTree = "<group>"; };
+		2788BB3A27B50DAB00864F0B /* SearchContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContactsViewModel.swift; sourceTree = "<group>"; };
 		27A203DC27B4EE7000EAB2F2 /* Ascenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ascenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A203DF27B4EE7000EAB2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27A203E127B4EE7000EAB2F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27A203E327B4EE7000EAB2F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27A203E627B4EE7000EAB2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27A203E827B4EE7200EAB2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27A203EB27B4EE7200EAB2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27A203ED27B4EE7200EAB2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A203F227B4EE7200EAB2F2 /* AscendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AscendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A203F627B4EE7200EAB2F2 /* AscendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendaTests.swift; sourceTree = "<group>"; };
-		27A203FC27B4EE7200EAB2F2 /* AscendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AscendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A2040027B4EE7200EAB2F2 /* AscendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendaUITests.swift; sourceTree = "<group>"; };
-		27A2040227B4EE7200EAB2F2 /* AscendaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +54,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27A203F927B4EE7200EAB2F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2788BB3527B50C7900864F0B /* SearchContacts */ = {
+			isa = PBXGroup;
+			children = (
+				2788BB3827B50CA500864F0B /* SearchContactsViewController.swift */,
+				2788BB3A27B50DAB00864F0B /* SearchContactsViewModel.swift */,
+			);
+			path = SearchContacts;
+			sourceTree = "<group>";
+		};
 		27A203D327B4EE7000EAB2F2 = {
 			isa = PBXGroup;
 			children = (
 				27A203DE27B4EE7000EAB2F2 /* Ascenda */,
 				27A203F527B4EE7200EAB2F2 /* AscendaTests */,
-				27A203FF27B4EE7200EAB2F2 /* AscendaUITests */,
 				27A203DD27B4EE7000EAB2F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +80,6 @@
 			children = (
 				27A203DC27B4EE7000EAB2F2 /* Ascenda.app */,
 				27A203F227B4EE7200EAB2F2 /* AscendaTests.xctest */,
-				27A203FC27B4EE7200EAB2F2 /* AscendaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,8 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				27A203DF27B4EE7000EAB2F2 /* AppDelegate.swift */,
-				27A203E127B4EE7000EAB2F2 /* SceneDelegate.swift */,
-				27A203E327B4EE7000EAB2F2 /* ViewController.swift */,
+				2788BB3527B50C7900864F0B /* SearchContacts */,
 				27A203E527B4EE7000EAB2F2 /* Main.storyboard */,
 				27A203E827B4EE7200EAB2F2 /* Assets.xcassets */,
 				27A203EA27B4EE7200EAB2F2 /* LaunchScreen.storyboard */,
@@ -116,15 +103,6 @@
 				27A203F627B4EE7200EAB2F2 /* AscendaTests.swift */,
 			);
 			path = AscendaTests;
-			sourceTree = "<group>";
-		};
-		27A203FF27B4EE7200EAB2F2 /* AscendaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				27A2040027B4EE7200EAB2F2 /* AscendaUITests.swift */,
-				27A2040227B4EE7200EAB2F2 /* AscendaUITestsLaunchTests.swift */,
-			);
-			path = AscendaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +143,6 @@
 			productReference = 27A203F227B4EE7200EAB2F2 /* AscendaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		27A203FB27B4EE7200EAB2F2 /* AscendaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27A2040C27B4EE7200EAB2F2 /* Build configuration list for PBXNativeTarget "AscendaUITests" */;
-			buildPhases = (
-				27A203F827B4EE7200EAB2F2 /* Sources */,
-				27A203F927B4EE7200EAB2F2 /* Frameworks */,
-				27A203FA27B4EE7200EAB2F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27A203FE27B4EE7200EAB2F2 /* PBXTargetDependency */,
-			);
-			name = AscendaUITests;
-			productName = AscendaUITests;
-			productReference = 27A203FC27B4EE7200EAB2F2 /* AscendaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +157,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					27A203F127B4EE7200EAB2F2 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 27A203DB27B4EE7000EAB2F2;
-					};
-					27A203FB27B4EE7200EAB2F2 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 27A203DB27B4EE7000EAB2F2;
 					};
@@ -221,7 +177,6 @@
 			targets = (
 				27A203DB27B4EE7000EAB2F2 /* Ascenda */,
 				27A203F127B4EE7200EAB2F2 /* AscendaTests */,
-				27A203FB27B4EE7200EAB2F2 /* AscendaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +199,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27A203FA27B4EE7200EAB2F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A203E427B4EE7000EAB2F2 /* ViewController.swift in Sources */,
+				2788BB3B27B50DAB00864F0B /* SearchContactsViewModel.swift in Sources */,
 				27A203E027B4EE7000EAB2F2 /* AppDelegate.swift in Sources */,
-				27A203E227B4EE7000EAB2F2 /* SceneDelegate.swift in Sources */,
+				2788BB3927B50CA500864F0B /* SearchContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +220,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27A203F827B4EE7200EAB2F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27A2040327B4EE7200EAB2F2 /* AscendaUITestsLaunchTests.swift in Sources */,
-				27A2040127B4EE7200EAB2F2 /* AscendaUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +227,6 @@
 			isa = PBXTargetDependency;
 			target = 27A203DB27B4EE7000EAB2F2 /* Ascenda */;
 			targetProxy = 27A203F327B4EE7200EAB2F2 /* PBXContainerItemProxy */;
-		};
-		27A203FE27B4EE7200EAB2F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27A203DB27B4EE7000EAB2F2 /* Ascenda */;
-			targetProxy = 27A203FD27B4EE7200EAB2F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -530,42 +464,6 @@
 			};
 			name = Release;
 		};
-		27A2040D27B4EE7200EAB2F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PK6V7T732P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = locnguyen.AscendaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ascenda;
-			};
-			name = Debug;
-		};
-		27A2040E27B4EE7200EAB2F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PK6V7T732P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = locnguyen.AscendaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ascenda;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -592,15 +490,6 @@
 			buildConfigurations = (
 				27A2040A27B4EE7200EAB2F2 /* Debug */,
 				27A2040B27B4EE7200EAB2F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27A2040C27B4EE7200EAB2F2 /* Build configuration list for PBXNativeTarget "AscendaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27A2040D27B4EE7200EAB2F2 /* Debug */,
-				27A2040E27B4EE7200EAB2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
