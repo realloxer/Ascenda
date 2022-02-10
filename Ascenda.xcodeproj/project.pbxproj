@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2788BB3927B50CA500864F0B /* SearchContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788BB3827B50CA500864F0B /* SearchContactsViewController.swift */; };
 		2788BB3B27B50DAB00864F0B /* SearchContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788BB3A27B50DAB00864F0B /* SearchContactsViewModel.swift */; };
+		2788BB3D27B5100900864F0B /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788BB3C27B5100900864F0B /* ContactRepository.swift */; };
+		2788BB3F27B510F600864F0B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788BB3E27B510F600864F0B /* Contact.swift */; };
+		2788BB4227B51FF900864F0B /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788BB4127B51FF900864F0B /* ContactTableViewCell.swift */; };
 		27A203E027B4EE7000EAB2F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A203DF27B4EE7000EAB2F2 /* AppDelegate.swift */; };
 		27A203E727B4EE7000EAB2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A203E527B4EE7000EAB2F2 /* Main.storyboard */; };
 		27A203E927B4EE7200EAB2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A203E827B4EE7200EAB2F2 /* Assets.xcassets */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		2788BB3827B50CA500864F0B /* SearchContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactsViewController.swift; sourceTree = "<group>"; };
 		2788BB3A27B50DAB00864F0B /* SearchContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContactsViewModel.swift; sourceTree = "<group>"; };
+		2788BB3C27B5100900864F0B /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		2788BB3E27B510F600864F0B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		2788BB4127B51FF900864F0B /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		27A203DC27B4EE7000EAB2F2 /* Ascenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ascenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A203DF27B4EE7000EAB2F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A203E627B4EE7000EAB2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,8 +68,18 @@
 			children = (
 				2788BB3827B50CA500864F0B /* SearchContactsViewController.swift */,
 				2788BB3A27B50DAB00864F0B /* SearchContactsViewModel.swift */,
+				2788BB3E27B510F600864F0B /* Contact.swift */,
+				2788BB4027B51FD500864F0B /* Cell */,
 			);
 			path = SearchContacts;
+			sourceTree = "<group>";
+		};
+		2788BB4027B51FD500864F0B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2788BB4127B51FF900864F0B /* ContactTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		27A203D327B4EE7000EAB2F2 = {
@@ -88,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				27A203DF27B4EE7000EAB2F2 /* AppDelegate.swift */,
+				2788BB3C27B5100900864F0B /* ContactRepository.swift */,
 				2788BB3527B50C7900864F0B /* SearchContacts */,
 				27A203E527B4EE7000EAB2F2 /* Main.storyboard */,
 				27A203E827B4EE7200EAB2F2 /* Assets.xcassets */,
@@ -206,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2788BB4227B51FF900864F0B /* ContactTableViewCell.swift in Sources */,
 				2788BB3B27B50DAB00864F0B /* SearchContactsViewModel.swift in Sources */,
 				27A203E027B4EE7000EAB2F2 /* AppDelegate.swift in Sources */,
+				2788BB3F27B510F600864F0B /* Contact.swift in Sources */,
+				2788BB3D27B5100900864F0B /* ContactRepository.swift in Sources */,
 				2788BB3927B50CA500864F0B /* SearchContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

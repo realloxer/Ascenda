@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let searchContactsVC = storyboard.instantiateViewController(withIdentifier: "SearchContactsViewController") as! SearchContactsViewController
-        searchContactsVC.viewModel = SearchContactsViewModel()
+        searchContactsVC.viewModel = SearchContactsViewModel(contactRepository: ContactRepository())
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = searchContactsVC
         window?.makeKeyAndVisible()
