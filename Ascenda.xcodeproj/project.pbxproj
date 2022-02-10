@@ -16,7 +16,7 @@
 		27A203E727B4EE7000EAB2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A203E527B4EE7000EAB2F2 /* Main.storyboard */; };
 		27A203E927B4EE7200EAB2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A203E827B4EE7200EAB2F2 /* Assets.xcassets */; };
 		27A203EC27B4EE7200EAB2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A203EA27B4EE7200EAB2F2 /* LaunchScreen.storyboard */; };
-		27A203F727B4EE7200EAB2F2 /* AscendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A203F627B4EE7200EAB2F2 /* AscendaTests.swift */; };
+		27A203F727B4EE7200EAB2F2 /* SearchContactsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A203F627B4EE7200EAB2F2 /* SearchContactsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 		27A203EB27B4EE7200EAB2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27A203ED27B4EE7200EAB2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A203F227B4EE7200EAB2F2 /* AscendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AscendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A203F627B4EE7200EAB2F2 /* AscendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendaTests.swift; sourceTree = "<group>"; };
+		27A203F627B4EE7200EAB2F2 /* SearchContactsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContactsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		27A203F527B4EE7200EAB2F2 /* AscendaTests */ = {
 			isa = PBXGroup;
 			children = (
-				27A203F627B4EE7200EAB2F2 /* AscendaTests.swift */,
+				27A203F627B4EE7200EAB2F2 /* SearchContactsViewModelTests.swift */,
 			);
 			path = AscendaTests;
 			sourceTree = "<group>";
@@ -236,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A203F727B4EE7200EAB2F2 /* AscendaTests.swift in Sources */,
+				27A203F727B4EE7200EAB2F2 /* SearchContactsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
